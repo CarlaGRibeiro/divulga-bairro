@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+:root{
+    --color-bk: #FFB953;
+    --color-destaque:#5594CA;
+}
+html{
+    width:100%;
+}
+/*--------------------header-----------------------*/
+header{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+.banner{
+    width:100%;
+}
+img{
+    width:100%;
+}
+
+.nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:right;
+}
+
+/*---------------------main-------------------------*/
+
+.box-container{
+    width:100%;
+    height: 500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--color-bk);
+}
+.box-segmento{
+    background-color:var(--color-destaque);
+    width:90%;
+    height:30%;
+    display:flex;
+    justify-content: center; 
+    align-items:center;   
+}
+.box{
+    background-color: black;
+    width:100px;
+    height:90%;
+}
+
+button{
+    background-color:aqua;
+    width:50%;
+    height:10%;
+}
+
+/*---------------------main-------------------------*/
+
+
+footer{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+width:100%;
+height:200px;
+background-color:var(--color-bk);
+}
+
+h5{
+}
+.info{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    width:90%;
+    height:80%;
+    background-color: chartreuse;
+    gap:10px;
+}
+.redes-sociais{
+    width:25%;
+    height:15%;
+    background-color:#0c0c0c;
+
+}
+
+.localizacao{
+    width:25%;
+    height:15%;
+    background-color:#0c0c0c;
+
+}
+
+.fale-comigo{
+    width:25%;
+    height:15%;
+    background-color:#0c0c0c;
+
+
+}
