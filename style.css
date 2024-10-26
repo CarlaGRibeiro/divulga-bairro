@@ -271,14 +271,37 @@ h5 {
 
 @media(max-width:700px) {
     .apresentacao {
+        padding:1px;
         flex-direction: column;
     }
-
-
+    .objt{
+        width:90%;
+    }
+    .slogan{
+        width:70%;
+    }
+    .slogan p {
+        width: 90%;
+    
+    }
+    
+    p.strong {
+        width:90%;    
+    }
     .propaganda {
         flex-direction: column;
+        padding:1px;
 
     }
+.prop{
+    width:90%;
+}
+    .captura{
+        width:70%;
+        padding:5px;
+    }
+
+
 }
 
 @media(max-width:500px) {
