@@ -97,45 +97,45 @@ const dadosCulinariaDoce = [
 const dadosFesta = [
     {
         "id": 1,
+        "logo": url + "30.jpg",
+        "loja": "Xoxocolate Buquês",
+        "contato": "(21) 97181-0310",
+        "whats": "21971810310"
+    },
+    {
+        "id": 2,
         "logo": url + "14.jpg",
         "loja": "Ki Sabor - Maça do Amor",
         "contato": "(21) 97057-7326",
         "whats": "21970577326"
     },
     {
-        "id": 2,
+        "id": 3,
         "logo": url + "15.jpg",
         "loja": "Cake Amadora",
         "contato": "(21) 98758-0021",
         "whats": "21987580021"
     },
     {
-        "id": 3,
+        "id": 4,
         "logo": url + "11.jpg",
         "loja": "Milena Santana - Doces e Salgados",
         "contato": "(21) 99793-5764",
         "whats": "21997935764"
     },
     {
-        "id": 4,
+        "id": 5,
         "logo": url + "9.jpg",
         "loja": "Brenda Ramilo Confeitaria Gourmet",
         "contato": "(21) 97150-5220",
         "whats": "21971505220"
     },
     {
-        "id": 5,
+        "id": 6,
         "logo": url + "8.jpg",
         "loja": "Doce Eschellin Confeitaria",
         "contato": "(21) 99487-0609",
         "whats": "21994870609"
-    },
-    {
-        "id": 6,
-        "logo": url + "1000.png",
-        "loja": "",
-        "contato": "",
-        "whats": ""
     },
 ]
 
