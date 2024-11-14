@@ -11,11 +11,14 @@
 
 html {
     width: 100%;
-
-}
+    }
 
 a {
     text-decoration: none;
+}
+
+a:visited {
+    color: black;
 }
 
 /*--------------------header-----------------------*/
@@ -42,17 +45,6 @@ img {
 
 
 /*---------------------main-------------------------*/
-
-
-
-/*.main{
-    width:100%;
-    background-color: #5594CA;
-    display:flex;
-    flex-direction:row;
-    
-}*/
-
 .apresentacao {
     width: 90%;
     margin: 13px auto;
@@ -64,6 +56,7 @@ img {
     font-size: 1.2em;
     box-shadow: 1px 1px 8px black;
 
+
 }
 
 .objt {
@@ -71,26 +64,40 @@ img {
     padding: 5px;
     text-align: center;
     font-style: oblique;
+
 }
 
 .slogan {
-    width: 40%;
-    background-image: url('./imagens/banner/backflower.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    padding: 45px;
-    margin: auto;
+    width: 55%;
+    padding: 15px;
+    margin: 2% auto;
     border: 2px solid var(--color-bk);
     border-radius: 15px;
     text-align: center;
+    display: flex;
+    align-items: center;
+
+
 
 }
 
+.slogan .envolucro {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .slogan p {
-    width: 70%;
+    width: 90%;
     font-style: oblique;
 
+
+}
+
+#flower {
+    width: 100%;
+    height: 90%;
 }
 
 p.strong {
@@ -99,8 +106,11 @@ p.strong {
 }
 
 h2 {
-    margin: 10px;
+    width: 100%;
+    margin: 10px auto;
     font-style: oblique;
+    text-align:center;
+    
 
 }
 
@@ -147,10 +157,8 @@ h2 {
     justify-content: center;
     align-items: center;
     align-content: center;
-
+    font-family:Calibri,sans-serif;    
 }
-
-
 
 .logo {
     width: 90%;
@@ -160,8 +168,10 @@ h2 {
 
 .infoCard {
     width: 95%;
+    margin-top:2px;
     font-size: 1em;
     text-align: center;
+
 }
 
 .org-ctt {
@@ -206,14 +216,6 @@ h2 {
 
 }
 
-/*button {
-    background-color: aqua;
-    width: 50%;
-    height: 10%;
-}*/
-
-
-
 .propaganda {
     width: 90%;
     margin: 20px auto;
@@ -231,12 +233,10 @@ h2 {
 
 }
 
-.prop {}
-
 .captura {
     width: 40%;
-    padding: 45px;
-    margin: auto;
+    padding: 20px;
+    margin: 1% auto;
     border: 2px solid var(--color-bk);
     border-radius: 15px;
     text-align: center;
@@ -273,6 +273,67 @@ h2 {
 }
 
 
+.suporte{
+    width:80%;
+    margin:5px auto;
+    border:2px solid var(--color-bk);
+    border-radius:10px;
+    overflow: hidden;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-family:Calibri,sans-serif;
+
+}
+.card-suporte{
+    background-color: var(--color-bk);
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 3px 2px 10px #0c0c0c;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.card-suporte a {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-suporte p{
+    border:3px solid #40c351;
+    border-radius:10px;
+    padding:2px;
+    color:#40c351;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium',sans-serif;
+}
+.card-suporte a img {
+    width:90%;
+    height:90%;
+}
+.tipo-suporte{
+    width:70%;
+    margin:auto;
+    text-align: justify;
+    font-size: x-large;
+    line-height:120%;
+}
+.tipo-suporte strong{
+    color: #40c351;
+    font-family: 'Franklin Gothic Medium',sans-serif;
+}
+.item-suporte{
+    width:25px;
+    height:30px;
+}
 /*---------------------fim/main-------------------------*/
 
 
@@ -286,12 +347,14 @@ footer {
     flex-basis: auto;
     border-top: 3px solid var(--color-bk);
     font-size: 1em;
+    font-family:Calibri,sans-serif;
+
 
 }
-
-h5 {
-    margin: 10px;
+h4{
+    margin:10px auto;
 }
+
 
 .info {
     width: 90%;
@@ -318,8 +381,54 @@ h5 {
 .redes-sociais a,
 .fale-comigo a {
     color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+
 }
 
+.icon-me {
+    width: 25px;
+    height: 25px;
+}
+
+@media(max-width: 992px) {
+    .prop {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+    }
+
+    .captura {
+        width: 50%;
+        padding: 10px;
+        line-height: 30px;
+    }
+
+    .suporte{
+        width:80%;
+        padding:10px;
+    }
+    .info {
+        position: relative;
+        left: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes-sociais,
+    .fale-comigo {
+        width: 100%;
+        align-items: start;
+    }
+
+    .localizacao {
+        display: none;
+    }
+
+}
 
 @media(max-width:700px) {
     .apresentacao {
@@ -358,25 +467,41 @@ h5 {
         width: 70%;
         padding: 5px;
     }
+    .tipo-suporte p{
+        padding:3px;
+        font-size: 0.6em;
+    }
 
 
+    .info {
+        position: relative;
+        left: 25%;
+    }
 }
 
 @media(max-width:500px) {
+
+
+    .slogan{
+        flex-direction:column-reverse;
+        font-size: 0.9em;
+        margin:0;
+    }
+    .envolucro{
+        margin:1px;
+    }
+    
     footer {
         margin: 10px auto;
         font-size: 0.8em;
     }
 
     .info {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        position: relative;
+        left: 20%;
         gap: 5px;
         font-size: 0.8em;
-        text-align: center;
+
 
     }
 }
