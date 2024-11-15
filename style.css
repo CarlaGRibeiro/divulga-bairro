@@ -330,6 +330,8 @@ h2 {
     color: #40c351;
     font-family: 'Franklin Gothic Medium',sans-serif;
 }
+
+
 .item-suporte{
     width:25px;
     height:30px;
@@ -410,10 +412,17 @@ h4{
     .suporte{
         width:80%;
         padding:10px;
+        font-size:0.3em;
+    }
+
+    .tipo-suporte{
+        font-size:4em;
+
     }
     .info {
+        width:50%;
         position: relative;
-        left: 30%;
+        left: 10%;
         display: flex;
         flex-direction: column;
     }
@@ -469,13 +478,14 @@ h4{
     }
     .tipo-suporte p{
         padding:3px;
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
 
     .info {
+        width:60%;
         position: relative;
-        left: 25%;
+        left: 5%;
     }
 }
 
@@ -495,13 +505,27 @@ h4{
         margin: 10px auto;
         font-size: 0.8em;
     }
-
+    .suporte{
+        flex-direction: column-reverse;
+    }
+    .suporte .card-suporte{
+        height:40px;
+        border:3px solid #40c351;
+    }
+    .suporte .card-suporte a{
+        flex-direction: row;
+    }
+    .suporte .card-suporte a img{
+        width:25px;
+        height:25px;
+    }
+    .suporte .card-suporte a p{
+        border:none;
+    }
     .info {
         position: relative;
-        left: 20%;
+        left: 3%;
         gap: 5px;
         font-size: 0.8em;
-
-
     }
 }
