@@ -155,7 +155,7 @@ h2 {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     align-content: center;
     font-family:Calibri,sans-serif;    

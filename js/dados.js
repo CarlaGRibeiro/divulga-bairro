@@ -182,6 +182,13 @@ const dadosFesta = [
         "contato": "(21) 99487-0609",
         "whats": "+5521994870609"
     },
+    {
+        "id": 7,
+        "logo": url + "32.jpg",
+        "loja": "IngriD'onuts",
+        "contato": "(21) 97987-3765",
+        "whats": "+5521979873765"
+    },
 ]
 
 const dadosBeleza = [
@@ -354,7 +361,14 @@ const dadosArtesanato = [
         "loja": "Gallileu Papelaria",
         "contato": "(21) 98547-0433",
         "whats": "+5521985470433"
-    }
+    },
+    {
+        "id": 6,
+        "logo": url + "1000.png",
+        "loja": "",
+        "contato": "",
+        "whats": "+5521983591846"
+    },
 
 ]
 
@@ -369,7 +383,7 @@ const dadosDigitalTech = [
     {
         "id": 2,
         "logo": url + "23.png",
-        "loja": "Gallileu Papelaria",
+        "loja": "Gallileu Serviços",
         "contato": "(21) 98547-0433",
         "whats": "+5521985470433"
     },
