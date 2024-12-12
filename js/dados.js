@@ -1,6 +1,51 @@
 const url = "./imagens/miniaturas/";
 
 
+const dadosDiaDia = [
+    {
+        "id": 1,
+        "logo": url + "16.png",
+        "loja": "Padaria Pai e Filho",
+        "contato": "(21) 96693-6523",
+        "whats": "+5521966936523"
+    },
+    {
+        "id": 2,
+        "logo": url + "20.png",
+        "loja": "Hortifruti Coqueiros",
+        "contato": "(21) 97102-0299",
+        "whats": "+5521971020299"
+    },
+    {
+        "id": 3,
+        "logo": url + "21.png",
+        "loja": "Depósito de Bebidas Robmar",
+        "contato": "(21) 98525-0644",
+        "whats": "+5521985250644"
+    },
+    {
+        "id": 4,
+        "logo": url + "1000.png",
+        "loja": "",
+        "contato": "",
+        "whats": "+5521983591846"
+    },
+    {
+        "id": 5,
+        "logo": url + "1000.png",
+        "loja": "",
+        "contato": "",
+        "whats": "+5521983591846"
+    },
+    {
+        "id": 6,
+        "logo": url + "1000.png",
+        "loja": "",
+        "contato": "",
+        "whats": "+5521983591846"
+    }
+]
+
 const dadosCulinariaLanchesSalgados = [
     {
         "id": 1,
@@ -404,13 +449,29 @@ const dadosEducacao = [
 ]
 
 
+
+for (cardDiaDia of dadosDiaDia) {
+    let sessaoDiaDia = document.getElementById('segmento-dia-dia');
+    let cardsDiaDia = `<div class="card">
+    <img class="logo" src="${cardDiaDia.logo}"/>
+    <p class="infoCard">${cardDiaDia.loja}</p>
+    <div class="org-ctt">
+        <a href="https://wa.me/${cardDiaDia.whats}" target="_blank"><img class="icon-wt" src="./imagens/icons/icon-whats.png">
+        ${cardDiaDia.contato}</a>    
+    </div>
+    </div>`
+
+    sessaoDiaDia.innerHTML += cardsDiaDia;
+}
+
+
 for (cardLanches of dadosCulinariaLanchesSalgados) {
     let sessaoLanches = document.getElementById('segmento-lanches-salgados');
     let cardsLanches = `<div class="card">
     <img class="logo" src="${cardLanches.logo}"/>
     <p class="infoCard">${cardLanches.loja}</p>
     <div class="org-ctt">
-        <a href="https://wa.me/${cardLanches.whats}" target="_blank"><img class="icon-wt"src="./imagens/icons/icon-whats.png">
+        <a href="https://wa.me/${cardLanches.whats}" target="_blank"><img class="icon-wt" src="./imagens/icons/icon-whats.png">
         ${cardLanches.contato}</a>    
     </div>
     </div>`
@@ -529,3 +590,4 @@ for (cardEnsino of dadosEducacao) {
     </div>`
     sessaoEnsino.innerHTML += cardsEnsino;
 }
+
