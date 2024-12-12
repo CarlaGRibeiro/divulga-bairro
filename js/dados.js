@@ -605,3 +605,6 @@ for (cardEnsino of dadosEducacao) {
     sessaoEnsino.innerHTML += cardsEnsino;
 }
 
+const visitas = `<a href="https://www.webcontadores.com" title="contador"></a>`
+
+

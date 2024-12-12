@@ -396,6 +396,11 @@ h4{
     height: 25px;
 }
 
+.visitantes{
+    width:100px;
+    height:10px;
+}
+
 @media(max-width: 992px) {
     .prop {
         width: 45%;
@@ -530,3 +535,4 @@ h4{
         font-size: 0.8em;
     }
 }
+
