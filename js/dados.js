@@ -133,8 +133,14 @@ const dadosCulinariaDoce = [
         "loja": "Janaina - Sacolé Gourmet",
         "contato": "(21) 99887-0695",
         "whats": "+5521998870695"
+    },
+    {
+        "id": 7,
+        "logo": url + "33.png",
+        "loja": "Açaí e Sorvetes - Reis e Costa",
+        "contato": "(21) 99625-0244",
+        "whats": "+5521996250244"
     }
-
 ]
 
 
