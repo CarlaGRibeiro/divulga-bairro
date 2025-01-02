@@ -207,10 +207,10 @@ const dadosBeleza = [
     },
     {
         "id": 2,
-        "logo": url + "1000.png",
-        "loja": "",
-        "contato": "",
-        "whats": "+5521983591846"
+        "logo": url + "34.png",
+        "loja": "Kelly Monique- Personal Trainer",
+        "contato": "(21)99769-1805",
+        "whats": "+5521997691805"
     },
     {
         "id": 3,
