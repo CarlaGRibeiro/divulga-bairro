@@ -22,7 +22,7 @@ const dadosDiaDia = [
         "loja": "Depósito de Bebidas Robmar",
         "contato": "(21) 98525-0644",
         "whats": "+5521985250644"
-    },
+    }/*,
     {
         "id": 4,
         "logo": url + "1000.png",
@@ -43,7 +43,7 @@ const dadosDiaDia = [
         "loja": "",
         "contato": "",
         "whats": "+5521983591846"
-    }
+    }*/
 ]
 
 const dadosCulinariaLanchesSalgados = [
@@ -74,7 +74,7 @@ const dadosCulinariaLanchesSalgados = [
         "loja": "Salgadinhos da Dona Graça",
         "contato": "(21) 96498-7676",
         "whats": "+5521964987676"
-    },
+    }/*,
     {
         "id": 5,
         "logo": url + "1000.png",
@@ -88,7 +88,7 @@ const dadosCulinariaLanchesSalgados = [
         "loja": "",
         "contato": "",
         "whats": "+5521983591846"
-    },
+    },*/
 ]
 const dadosCulinariaDoce = [
     {
@@ -211,7 +211,7 @@ const dadosBeleza = [
         "loja": "Kelly Monique- Personal Trainer",
         "contato": "(21)99769-1805",
         "whats": "+5521997691805"
-    },
+    }/*,
     {
         "id": 3,
         "logo": url + "1000.png",
@@ -239,7 +239,7 @@ const dadosBeleza = [
         "loja": "",
         "contato": "",
         "whats": "+5521983591846"
-    }
+    }*/
 ]
 
 const dadosVestuario = [
@@ -249,7 +249,7 @@ const dadosVestuario = [
         "loja": "Aninha - Cosméticos e acessórios",
         "contato": "(21) 97486-2086",
         "whats": "+5521974862086"
-    },
+    }/*,
     {
         "id": 2,
         "logo": url + "1000.png",
@@ -284,7 +284,7 @@ const dadosVestuario = [
         "loja": "",
         "contato": "",
         "whats": "+5521983591846"
-    },
+    },*/
 ]
 
 const dadosCulinariaRefeicao = [
@@ -294,7 +294,7 @@ const dadosCulinariaRefeicao = [
         "loja": "Delícias da Casa",
         "contato": "(21)98033-8459",
         "whats": "+5521980338459"
-    },
+    }/*,
     {
         "id": 2,
         "logo": url + "1000.png",
@@ -329,7 +329,7 @@ const dadosCulinariaRefeicao = [
         "loja": "",
         "contato": "",
         "whats": "+5521983591846"
-    },
+    },*/
 ]
 
 const dadosArtesanato = [
@@ -367,14 +367,14 @@ const dadosArtesanato = [
         "loja": "Gallileu Papelaria",
         "contato": "(21) 98547-0433",
         "whats": "+5521985470433"
-    },
+    }/*,
     {
         "id": 6,
         "logo": url + "1000.png",
         "loja": "",
         "contato": "",
         "whats": "+5521983591846"
-    },
+    },*/
 
 ]
 
@@ -392,7 +392,7 @@ const dadosDigitalTech = [
         "loja": "Gallileu Serviços",
         "contato": "(21) 98547-0433",
         "whats": "+5521985470433"
-    },
+    }/*,
     {
         "id": 3,
         "logo": url + "1000.png",
@@ -420,7 +420,7 @@ const dadosDigitalTech = [
         "loja": "",
         "contato": "",
         "whats": "+5521983591846"
-    }
+    }*/
 ]
 
 const dadosEducacao = [
@@ -430,7 +430,7 @@ const dadosEducacao = [
         "loja": "",
         "contato": "",
         "whats": "+5521983591846"
-    },
+    }/*,
     {
         "id": 2,
         "logo": url + "1000.png",
@@ -465,7 +465,7 @@ const dadosEducacao = [
         "loja": "",
         "contato": "",
         "whats": "+5521983591846"
-    }
+    }*/
 ]
 
 
